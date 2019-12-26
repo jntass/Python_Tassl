@@ -2,7 +2,7 @@
 支持国密协议的python （Python that supports CNTLS protocols）
 
 Python-2.7.17集成tassl支持国密方法
-1.	替换Python-2.7.17/Modules/_ssl.c，增加了支持CNTLS的部分。
+1.	下载支持CNTLS的Python-2.7.17_tassl.tar.xz增加了支持CNTLS的部分。
 2.	export LDFLAGS="-L/root/lib_r/tassl/lib/"  其中/root/lib_r/tassl/lib 为安装tassl的库目录。
 3.	./configure --prefix=/root/lib_r/Python-2.7.17 ; make; make install
 4.	export LD_LIBRARY_PATH=/root/lib_r/tassl/lib    设置python执行时需要的tassl库目录。
