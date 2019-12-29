@@ -10,6 +10,8 @@ Python-2.7.17集成tassl支持国密方法
 
 sm_http_client.py脚本如下:
 
+#coding=UTF-8
+
 import socket
 
 import ssl 
@@ -19,7 +21,7 @@ import urllib
 import httplib
 
 
-host = '192.168.6.245'
+host = '127.0.0.1'
 
 
 port = 443 
